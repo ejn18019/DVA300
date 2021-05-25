@@ -5,7 +5,7 @@ function [User] = Getdata(User)
 
 %Updated. Medium resolution times the lenght of content(in seconds)
 Data=0.1944*((40*60)+((80*60)*rand(1)));
-%Data = 100+(900*rand(1)); 
+%Data = 100+(900*rand(1)); This line is used when decreasing the amount of data to be accessed.
 %resolution times the length of content in hours
 User.data=Data;
 User.StartData=Data;
